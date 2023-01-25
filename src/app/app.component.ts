@@ -23,6 +23,7 @@ export class AppComponent {
   formData() {
 
     console.log(this.reactiveForm.value);
+    alert("Record Added Successfully!!");
     
   }
 
